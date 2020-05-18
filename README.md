@@ -1,6 +1,6 @@
 # Online-Coding
 <html>
-<h1>Q1].Using methods charAt() & length() of String class, write a program to print the frequency 
+<h2>Q1].Using methods charAt() & length() of String class, write a program to print the frequency 
     of each character in a string.
 
     “Hello friend”
@@ -21,5 +21,5 @@ Q2].  Write down a java program to print even and odd numbers series respectivel
     Sleep Interval for thread t1
     Sleep Interval for thread t2
     Message per cycle
-    No of cycles</h1>
+    No of cycles</h2>
     </html>
