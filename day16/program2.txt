@@ -1,0 +1,30 @@
+#Python Program to Map Two Lists into a Dictionary Steps: Get n rollnos through keyboard and put it in list L and respective test marks in list M. Write the program takes two lists and maps two lists into a dictionary D .
+
+
+n=int(input("enter the n number"))
+lst=[]
+lst1=[]
+for i in range(0,n):
+    rol=input("enter the rollno.=")
+    mrks=input("enter the marks=")
+    lst.append(rol)
+    lst1.append(mrks)
+dis=dict(zip(lst,lst1))
+print(dis)
+
+output:
+    enter the n number5
+enter the rollno.=12
+enter the marks=45
+enter the rollno.=13
+enter the marks=44
+enter the rollno.=14
+enter the marks=50
+enter the rollno.=15
+enter the marks=32
+enter the rollno.=16
+enter the marks=42
+{'12': '45', '13': '44', '14': '50', '15': '32', '16': '42'}
+
+
+
