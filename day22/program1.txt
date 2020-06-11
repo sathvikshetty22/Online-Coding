@@ -1,0 +1,15 @@
+#Python Program to find the average of all Items in a Dictionary
+
+def returnSum(dict): 
+      
+     sum = 0
+     for i in dict.values(): 
+           sum = sum + i
+     avg=sum/len(dict)     
+       
+     return avg
+dict = {'ram': 83, 'jay':78, 'deep':68} 
+print("AVG :", returnSum(dict)) 
+
+output:
+AVG : 76.33333333333333
